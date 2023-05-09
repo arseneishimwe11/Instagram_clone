@@ -7,7 +7,7 @@
   },
   "author": "",
   "license": "ISC",
-  "proxy": "http://locahost:5500",
+  "proxy": "http://localhost:5500",
   "dependencies": {
     "@emotion/react": "^11.10.8",
     "@emotion/styled": "^11.10.8",
@@ -22,5 +22,6 @@
     "react-router-dom": "^6.10.0",
     "react-scripts": "^5.0.1"
   },
+  "devDependencies": {},
   "description": ""
 }
