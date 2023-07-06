@@ -2,15 +2,11 @@ const mongoose = require('mongoose')
 const { Schema } = mongoose
 const postSchema = new mongoose.Schema(
     {
-        title:{
+        caption:{
             type:String,
             required:true
         },
-        body:{
-            type:String,
-            required:true
-        },
-        photo:{
+        imageUrl:{
             type:String,
             default:"none"
         },
